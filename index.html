@@ -1,0 +1,261 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+<head>
+  <meta charset="utf-8">
+  <title>KidsGarden</title>
+</head>
+
+<body>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>CNJP | frontendDev</title>
+
+  <!-- Google fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Butterfly+Kids&family=Cutive+Mono&family=Irish+Grover&family=Luckiest+Guy&family=Montserrat:wght@100&display=swap" rel="stylesheet">
+
+  <!-- Font Awesome -->
+  <script src="https://kit.fontawesome.com/20a5964665.js" crossorigin="anonymous"></script>
+
+  <!-- BootstrapCSS only -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
+
+  <!-- CSS -->
+  <link rel="stylesheet" href="styles.css">
+
+
+  <!-- navBar -->
+  <nav class="navbar navbar-expand-lg sticky-top navbar-light bg-light">
+    <div class="container-fluid">
+      <a class="navbar-brand" href="index.html">KidsGarden</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+        <div class="navbar-nav ms-auto">
+          <a class="nav-link active" aria-current="page" href="#start-learning">Start Learning</a>
+          <a class="nav-link" href="#about">About</a>
+          <a class="nav-link" href="#contact">Contact</a>
+          <a class="nav-link" href="#quiz">Quiz</a>
+          <a class="nav-link disabled">Blog</a>
+        </div>
+      </div>
+    </div>
+  </nav>
+
+
+  <!-- Header-section -->
+  <div class="container-fluid header">
+    <h1>
+      <span>k</span>
+      <span>i</span>
+      <span>d</span>
+      <span>s</span>
+      <br>
+      <span>g</span>
+      <span>a</span>
+      <span>r</span>
+      <span>d</span>
+      <span>e</span>
+      <span>n</span>
+    </h1>
+
+  </div>
+
+
+
+  <!-- allAlphabets section -->
+
+  <div class="container alphabets-grp" id="start-learning">
+    <h1 class="alphabet-grp-title">the alphabets A - Z</h1>
+    <!-- set01 -->
+    <div class="set">
+      <button class="letter-btn">A</button>
+      <button class="letter-btn">B</button>
+      <button class="letter-btn">C</button>
+      <button class="letter-btn">D</button>
+      <button class="letter-btn">E</button>
+      <button class="letter-btn">F</button>
+      <button class="letter-btn">G</button>
+      <button class="letter-btn">H</button>
+    </div>
+    <!-- set02 -->
+    <div class="set">
+      <button class="letter-btn">I</button>
+      <button class="letter-btn">J</button>
+      <button class="letter-btn">K</button>
+      <button class="letter-btn">L</button>
+      <button class="letter-btn">M</button>
+      <button class="letter-btn">N</button>
+      <button class="letter-btn">O</button>
+      <button class="letter-btn">P</button>
+    </div>
+    <!-- set03 -->
+    <div class="set">
+      <button class="letter-btn">Q</button>
+      <button class="letter-btn">R</button>
+      <button class="letter-btn">S</button>
+      <button class="letter-btn">T</button>
+      <button class="letter-btn">U</button>
+    </div>
+    <!-- set04 -->
+    <div class="set">
+      <button class="letter-btn">V</button>
+      <button class="letter-btn">W</button>
+      <button class="letter-btn">X</button>
+      <button class="letter-btn">Y</button>
+      <button class="letter-btn">Z</button>
+    </div>
+  </div>
+
+
+
+  <!-- Alphabet-slide section -->
+
+  <div class="container-fluid alphabet-slide">
+
+    <div id="carouselExampleIndicators" class="carousel carousel-dark slide" data-bs-ride="carousel">
+      <div class="carousel-indicators">
+        <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+        <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+        <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
+      </div>
+      <div class="carousel-inner">
+        <div class="carousel-item active" data-bs-interval="1000s">
+          <!-- letterA -->
+          <div class="row  w-100" id="A">
+            <div class="col-lg-6 letter-box">
+              <button class="letter-btn-big">A</button>
+            </div>
+            <div class="col-lg-6">
+              <img src="images/AZ-items/A-item.png" class="AZitem-img" alt="">
+            </div>
+          </div>
+        </div>
+        <div class="carousel-item" data-bs-interval="1000s">
+          <!-- letterB -->
+          <div class="row  w-100" id="B">
+            <div class="col-lg-6 letter-box">
+              <button class="letter-btn-big">B</button>
+            </div>
+            <div class="col-lg-6">
+              <img src="images/AZ-items/B-item.png" class="AZitem-img" alt="">
+            </div>
+          </div>
+        </div>
+        <div class="carousel-item" data-bs-interval="1000s">
+          <!-- letterC -->
+          <div class="row  w-100" id="C">
+            <div class="col-lg-6 letter-box">
+              <button class="letter-btn-big">C</button>
+            </div>
+            <div class="col-lg-6">
+              <img src="images/AZ-items/C-item.png" class="AZitem-img" alt="">
+            </div>
+          </div>
+        </div>
+      </div>
+      <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Previous</span>
+      </button>
+      <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Next</span>
+      </button>
+    </div>
+
+
+
+
+  </div>
+
+
+
+  <!-- Number counter section -->
+
+
+
+  <!-- About section -->
+  <div class="container" id="about">
+    <h1>About KidsGarden</h1>
+    <p class="about-text">KidsGarden, as derived from the German form of kindergarten,
+      is a space for kids to learn whilst also having fun during the learning process. <br>
+      Learning doesn't have to be boring.
+    </p>
+    <p class="about-text">
+      The platform was developed by a bunch of friends who love kids &
+      decided to use code to make learning fun for kids.
+    </p>
+  </div>
+
+
+  <!-- Contact-form section -->
+  <div class="container contact-section" id="contact">
+    <div class="row">
+      <div class="col-lg-3">
+        <img src="images/contactcnjp.png" class="contact-img floating-img" alt="">
+      </div>
+      <div class="col-lg-9">
+        <h5>You can reach out or drop me a message via the form below;
+          or if you'll like to get social, hit any of the social icons in the footer.</h5>
+        <div class="row">
+          <div class="col-6">
+            <div class="mb-3">
+              <input type="text" class="form-control" id="exampleFormControlInput1" placeholder="Name">
+            </div>
+          </div>
+          <div class="col-6">
+            <div class="mb-3">
+              <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="Email">
+            </div>
+          </div>
+        </div>
+        <div class="mb-3">
+          <textarea class="form-control" id="exampleFormControlTextarea1" rows="4" placeholder="Message"></textarea>
+        </div>
+        <button type="button" name="button" class="btn">Send</button>
+      </div>
+
+    </div>
+  </div>
+
+
+
+
+  <!-- JS section -->
+
+  <!-- JavaScript Bundle with Popper -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2" crossorigin="anonymous"></script>
+
+  <!-- myJS -->
+  <script src="app.js" type="text/javascript" charset="utf-8"></script>
+</body>
+
+
+
+
+<footer>
+  <div class="container-fluid footer-1">
+
+    <a href="https://www.linkedin.com/"><i class="social-icon fa-brands fa-linkedin fa-xl"></i></a>
+    <a href="https://facebook.com/"><i class="social-icon fa-brands fa-github fa-xl"></i></a>
+    <a href="https://twitter.com/"><i class="social-icon fa-brands fa-twitter fa-xl"></i></a>
+    <a href="https://instagram.com/"><i class="social-icon fa-brands fa-instagram fa-xl"></i></a>
+    <a href="https://youtube.com/"><i class="social-icon fa-brands fa-youtube fa-xl"></i></a>
+
+    <p id="footer-date" class="copyright-text">
+      &copy; KidsGarden
+      <script type="text/javascript">
+        document.write(new Date().getFullYear());
+      </script>
+    </p>
+
+    <p class="cnjp">made with <i class="social-icon fa-solid fa-heart fa-xl"></i> for <i class="social-icon fa-solid fa-children fa-xl"></i> by <a href="index.html">cnjp</a></p>
+
+  </div>
+</footer>
+
+</html>
